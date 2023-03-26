@@ -1,0 +1,19 @@
+.try-now{
+    margin: 2em;
+    padding: 0 0 2em 2em;
+    border-radius: 1em;
+    background-color: #2345;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+
+    border: 1px solid grey;
+}
+
+.try-now div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
