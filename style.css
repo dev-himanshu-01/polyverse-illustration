@@ -12,7 +12,7 @@ body {
 
 
 /* SCROLL CSS */
-body::-webkit-scrollbar {
+body::-webkit-scrollbar {   
     width: 0.5em;
 }
 
@@ -21,7 +21,8 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #232323;
+    background-color: rgb(124, 124, 124);
+    border-radius: 0.5em;
 }
 
 .section_headings {
