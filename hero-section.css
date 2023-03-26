@@ -1,0 +1,56 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 2em 0 2em 3em;
+
+    background: rgb(147, 203, 255);
+    background: radial-gradient(circle, rgb(147 203 255 / 80%) 0%, rgb(231 224 250));
+}
+
+.hero-section .hero-leftside {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-section .hero-leftside h3 {
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 48px;
+    color: #1a1a1a;
+    word-wrap: break-word;
+}
+
+.hero-section .hero-leftside h3 span {
+    position: relative;
+    background-color: #ffef91;
+    padding: 0 2px;
+    white-space:nowrap;
+}
+
+.hero-section .hero-leftside h3 span::before {
+    content: " ";
+}
+
+.hero-section .hero-leftside p {
+    color: #545454fc;
+    font-size: 1.2em;
+    font-style: normal;
+    font-family: 400;
+    line-height: 1.5;
+    width: 80%;
+}
+
+.hero-section .hero-rightside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1em;
+    border-top-left-radius: 0.9em;
+    border-bottom-left-radius: 0.9em;
+
+}

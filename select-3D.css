@@ -1,0 +1,25 @@
+.select-3d {
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 50px;
+}
+
+.select-3d-leftside {
+    background-color: #8465dd;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.select-3d-leftside img {
+    padding: 0 2em 0 5em;
+}
+
+.select-3d-rightside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
