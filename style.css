@@ -12,12 +12,12 @@ body {
 
 
 /* SCROLL CSS */
-body::-webkit-scrollbar {   
-    width: 0.5em;
+body::-webkit-scrollbar {
+    width: 0.3em;
 }
 
 body::-webkit-scrollbar-track {
-    padding: 2em;
+    /* padding: 2em; */
 }
 
 body::-webkit-scrollbar-thumb {
@@ -33,6 +33,7 @@ body::-webkit-scrollbar-thumb {
     line-height: 48px;
     color: #1a1a1a;
     word-wrap: break-word;
+    text-align: center;
 }
 
 .section_sub-heading {
@@ -74,3 +75,13 @@ body::-webkit-scrollbar-thumb {
     background-position: 0 0, 30px 30px;
     background-repeat: repeat;
 }
+
+/* MEDIA QUERIES */
+/* AVERAGE MOBILE DEVICES  */
+@media screen and (min-width: 360px) and (max-width: 480px) {}
+
+/* IPADS AND TABLETS  */
+@media screen and (min-width: 481px) and (max-width: 768px) {}
+
+/* EXTRA LARGE SCREENS & TV */
+@media screen and (min-width: 1201px) {}

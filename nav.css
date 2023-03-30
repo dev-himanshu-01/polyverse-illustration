@@ -1,4 +1,3 @@
-
 nav {
     margin: 1em;
     display: flex;
@@ -35,7 +34,33 @@ nav {
     flex-direction: column;
 }
 
-.nav-leftside .logo-txt span {
+.nav-leftside .logo-txt p {
     color: #232323;
-    text-align: left;
+    /* text-align: left; */
+}
+
+/* MEDIA QUERIES */
+/* AVERAGE MOBILE DEVICES  */
+@media screen and (min-width: 360px) and (max-width: 480px) {}
+
+/* IPADS AND TABLETS  */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .logo-txt {
+        font-size: 1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-txt p {
+        display: flex;
+        /* align-self: center; */
+        justify-self: left;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+
+    
 }

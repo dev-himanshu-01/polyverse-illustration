@@ -52,16 +52,44 @@
     background-color: rgb(219, 207, 197);
 }
 
-.container .card-2{
+.container .card-2 {
     background-color: #f6e7ec;
-    border: 1px solid rgba(29,29,29,.1);
+    border: 1px solid rgba(29, 29, 29, .1);
 }
 
-.container .card-3{
+.container .card-3 {
     background-color: #d1ffc6;
     border: 1px solid #99ff80;
 }
+
 .container .card-4 {
     background-color: #d0d2ff;
     border: 1px solid #aeb0ff;
+}
+
+/* SMALL SCREEN */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .container {
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .recomm-head {
+        padding: 1em 3em 1em 1em;
+        margin-top: 3em;
+    }
+
+    .card {
+
+        width: 200px;
+    }
+
 }

@@ -1,15 +1,16 @@
 .select-3d {
     margin-top: 4em;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     grid-template-rows: 1fr;
     gap: 50px;
 }
 
 .select-3d-leftside {
-    background-color: #8465dd;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
+    background-color: #8465dd;
+
 }
 
 .select-3d-leftside img {
@@ -22,4 +23,93 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+/* DESKTOP AND LARGE SCREEN */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .select-3d {
+        gap: 30px
+    }
+
+    .select-3d-leftside img {
+        padding: 0 0 0 0;
+        height: 500px;
+    }
+
+    .select-3d-leftside {
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        background-color: #8465dd;
+        padding: 0;
+    }
+}
+
+/* SMALL SCREEN */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .select-3d {
+        gap: 10px;
+        grid-template-columns: 50% 50%;
+    }
+
+    .select-3d-leftside img {
+        padding: 0;
+        height: 320px;
+    }
+
+    .select-3d-leftside {
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        background-color: #8465dd;
+        padding: 1em;
+    }
+
+    .select-3d-rightside h3 {
+        font-size: 2.6em;
+    }
+
+    .select-3d-rightside p {
+        font-size: 1.2em;
+    }
+
+    .select-3d-rightside span {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .select-3d {
+        margin-top: 2em;
+        gap: 10px;
+        grid-template-columns: 50% 50%;
+    }
+
+    .select-3d-leftside img {
+        padding: 0;
+        height: 200px;
+    }
+
+    .select-3d-leftside {
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        background-color: #8465dd;
+        padding: 0;
+    }
+
+    .select-3d-rightside {
+        font-size: 0.8em;
+        gap: 5px;
+    }
+
+    .select-3d-rightside h3 {
+        font-size: 1.8em;
+    }
+
+    .select-3d-rightside p {
+        font-size: 1em;
+    }
+
+    .select-3d-rightside span {
+        font-size: 1em;
+    }
 }

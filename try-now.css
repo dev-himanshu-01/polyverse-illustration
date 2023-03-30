@@ -1,4 +1,4 @@
-.try-now{
+.try-now {
     margin: 2em;
     padding: 0 0 2em 2em;
     border-radius: 1em;
@@ -16,4 +16,46 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+/* SMALL SCREEN */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .try-now img {
+        height: 250px;
+    }
+
+    .try-now {
+        padding: 1em;
+        margin: 1em;
+    }
+
+    .try-now div .try_now-head {
+        font-size: 2.2em;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    footer {
+        margin-top: 1em;
+    }
+
+    .try-now img {
+        height: 200px;
+    }
+
+    .try-now {
+        padding: 1em;
+        margin: 0.5em;
+        margin-top: 3em;
+    }
+
+    .try-now div .try_now-head {
+        font-size: 1.5em;
+        line-height: 1.2;
+    }
+
+    .try-now div .view_cta_btn {
+        font-size: 1em;
+    }
 }
