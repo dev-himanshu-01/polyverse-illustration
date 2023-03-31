@@ -50,7 +50,7 @@
     <section class="hero-section">
       <div class="hero-leftside">
         <h3>
-          Free vector and <span>3D illustrations.</span> <br>
+          Free vector and <span>3D illustrations.</span> <br />
           Trendy. Covers all category.
         </h3>
         <p>
@@ -79,9 +79,7 @@
     <section class="select-simple-3d">
       <div class="select-simple-3d-leftside">
         <h3 class="section_headings">minimalist ✨</h3>
-        <p class="section_sub-heading">
-          Set of our simplified 3D styles.
-        </p>
+        <p class="section_sub-heading">Set of our simplified 3D styles.</p>
         <span class="view_cta_btn"> View </span>
       </div>
 
@@ -166,4 +164,29 @@
       </div>
     </footer>
   </body>
+
+  <!-- FIREBASE-APP -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBsVqjjcE-sCxSrN23L_N_rEN37xfk6lr0",
+      authDomain: "polyverse-illustration.firebaseapp.com",
+      projectId: "polyverse-illustration",
+      storageBucket: "polyverse-illustration.appspot.com",
+      messagingSenderId: "343856466151",
+      appId: "1:343856466151:web:3aeacd4a379a783e28ba42",
+      measurementId: "G-M31EYNP8KV",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </html>
