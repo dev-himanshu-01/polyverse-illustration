@@ -113,3 +113,44 @@
         font-size: 1em;
     }
 }
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .select-3d {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .select-3d-leftside img {
+        padding: 0;
+        height: 250px;
+    }
+
+    .select-3d-leftside {
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        background-color: #8465dd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .select-3d-rightside {
+        font-size: 0.8em;
+        gap: 5px;
+        padding: 3em 0;
+    }
+
+    .select-3d-rightside h3 {
+        font-size: 2.8em;
+    }
+
+    .select-3d-rightside p {
+        font-size: 1.5em;
+    }
+
+    .select-3d-rightside span {
+        font-size: 1.7em;
+    }
+}

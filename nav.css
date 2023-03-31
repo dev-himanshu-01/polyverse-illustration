@@ -36,7 +36,6 @@ nav {
 
 .nav-leftside .logo-txt p {
     color: #232323;
-    /* text-align: left; */
 }
 
 /* MEDIA QUERIES */
@@ -55,12 +54,26 @@ nav {
 
     .logo-txt p {
         display: flex;
-        /* align-self: center; */
         justify-self: left;
     }
 }
 
 @media screen and (min-width: 360px) and (max-width: 480px) {
 
-    
+    .logo img {
+        height: 30px;
+    }
+
+    .logo-txt {
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-txt p {
+        display: flex;
+        justify-self: left;
+    }
+
 }

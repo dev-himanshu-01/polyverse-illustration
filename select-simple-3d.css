@@ -111,3 +111,46 @@
         font-size: 1em;
     }
 }
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .select-simple-3d {
+        gap: 30px;
+        margin-top: 2em;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .select-simple-3d-rightside {
+        background-color: #ff8ed2;
+        border-bottom-left-radius: 1em;
+        border-top-left-radius: 1em;
+        gap: 0;
+        padding: 1em 1em 0 1em;
+
+    }
+
+    .select-simple-3d-leftside {
+        margin: 0;
+        gap: 5px;
+        font-size: 0.8em;
+        padding: 3em 0;
+    }
+
+    .select-simple-3d-rightside img {
+        height: 250px;
+        padding: 0;
+    }
+
+    .select-simple-3d-leftside h3 {
+        font-size: 2.2em;
+    }
+
+    .select-simple-3d-leftside p {
+        font-size: 1.5em;
+    }
+
+    .select-simple-3d-leftside span {
+        font-size: 1.7em;
+    }
+}

@@ -93,3 +93,23 @@
     }
 
 }
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .container {
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .recomm-head {
+        padding: 1em 3em 1em 1em;
+        margin-top: 3em;
+    }
+
+    .card {
+        margin: 0;
+        padding: 0;
+        height: 300px;
+
+    }
+}
