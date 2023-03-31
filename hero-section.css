@@ -66,11 +66,12 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .hero-section {
         gap: 0;
+        padding: 6em 3em;
     }
 
     .hero-section .hero-rightside img {
         padding: 0;
-        height: 280px;
+        height: 300px;
     }
 
     .hero-section .hero-leftside h3 {
@@ -87,6 +88,7 @@
         flex-direction: column;
         padding: 2em 1em 2em 1em;
         gap: 20px;
+        padding: 4em 2em;
 
     }
 

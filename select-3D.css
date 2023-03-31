@@ -26,7 +26,7 @@
 }
 
 /* DESKTOP AND LARGE SCREEN */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) {
     .select-3d {
         gap: 30px
     }
@@ -53,15 +53,16 @@
     }
 
     .select-3d-leftside img {
-        padding: 0;
-        height: 320px;
+        margin: 0;
+        padding: 0 0 6em 0;
+        height: 400px;
     }
 
     .select-3d-leftside {
         border-top-right-radius: 1em;
         border-bottom-right-radius: 1em;
         background-color: #8465dd;
-        padding: 1em;
+        padding: 0 3em 0 3em;
     }
 
     .select-3d-rightside h3 {

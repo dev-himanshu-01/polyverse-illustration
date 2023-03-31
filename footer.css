@@ -67,6 +67,11 @@ footer {
 /* CSS MEDIA QUERY! */
 /* SMALL SCREEN */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    footer{
+        margin: 3em 0 0 0;
+    }
+
     .footer-leftside {
         gap: 10px;
     }
@@ -127,7 +132,6 @@ footer {
 
     footer {
         padding: 3em 0.5em 1em 1em;
-
         display: flex;
         flex-direction: column;
         gap: 50px;
@@ -152,7 +156,7 @@ footer {
     /* rightside */
     .footer-rightside {
         gap: 25px;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
     }
 
     .footer-rightside ul {

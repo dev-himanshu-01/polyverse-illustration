@@ -18,6 +18,24 @@
     justify-content: center;
 }
 
+
+/* DESKTOP AND LARGE SCREEN */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .try-now img {
+        height: 400px;
+    }
+
+    .try-now {
+        padding: 1em;
+        margin: 1em;
+    }
+
+    .try-now div .try_now-head {
+        font-size: 2.4em;
+        line-height: 1.2;
+    }
+}
+
 /* SMALL SCREEN */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .try-now img {
@@ -26,7 +44,7 @@
 
     .try-now {
         padding: 1em;
-        margin: 1em;
+        margin: 3em 1em 1em 1em;
     }
 
     .try-now div .try_now-head {
