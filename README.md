@@ -8,7 +8,7 @@ A demo landing page for a 3D Illustration website
 
 ## ⏮ Demo
 
-Live Preview: https://wowowo.com/
+Live Preview: https://polyverse-illustration.netlify.app/
 
 Video Demo 👇
 ![poly-edited-gif](https://user-images.githubusercontent.com/110885026/230169075-1be84296-eeb7-4dc4-9d1f-81b5ba34f4bc.gif)
