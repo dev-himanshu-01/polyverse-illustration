@@ -3,6 +3,8 @@
 
 A demo landing page for a 3D Illustration website
 
+<br>
+<br>
 
 ## ⏮ Demo
 
@@ -10,6 +12,10 @@ Live Preview: https://wowowo.com/
 
 Video Demo 👇
 ![poly-edited-gif](https://user-images.githubusercontent.com/110885026/230169075-1be84296-eeb7-4dc4-9d1f-81b5ba34f4bc.gif)
+
+<br>
+<br>
+
 ## 💻 Run Locally
 
 Clone the project
@@ -29,6 +35,9 @@ and then Open with live-server,
 ![open-live-edited](https://user-images.githubusercontent.com/110885026/230066508-631d1ba5-a9b9-4839-925c-48bfeea60f37.gif)
 
 
+<br>
+<br>
+
 ## 📸 Screenshots
 
 ![1](https://user-images.githubusercontent.com/110885026/230175981-dfdc4b66-ff7f-4d66-a8ab-2349aa1ec881.png)
@@ -38,7 +47,8 @@ and then Open with live-server,
 ![3 3](https://user-images.githubusercontent.com/110885026/230176185-b73fa63b-46fa-40ed-b347-b321e7e5b123.png)
 
 
-
+<br>
+<br>
 
 ## 🧠 Lessons Learned
 
@@ -46,20 +56,34 @@ and then Open with live-server,
 - Picked up coding after a long time, so it was a great refresher.
 - Enjoyed using some 3D illustration :)
 
+
+<br>
+<br>
+
 ## 🚀 About Me
 17 y/o — Developer and Designer | ReactJS fanatic ⚛️| Building kickass products💡|  Open for new opportunities 🌟
 
+
+<br>
+<br>
 
 ## 🙋‍♂️ Authors
 
 - [@dev-himanshu-01](https://github.com/dev-himanshu-01)
 
 
+
+<br>
+<br>
+
 ## 🎈 Acknowledgements
 
  - [icons8.com](https://icons8.com/)
  - [Sally-3D Illustartion](https://www.figma.com/community/file/890095002328610853)
  - [heroicons](https://heroicons.com/)
+
+<br>
+<br>
 
 
 ## 💬 Feedback
