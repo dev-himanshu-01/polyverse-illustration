@@ -1,7 +1,7 @@
 
 # Polyverse Illustration
 
-A demo landing page for a 3D Illustration website
+Polyverse Illustration is 3D illustration website which provides graphics and 3D illustrations based on different categories.
 
 <br>
 <br>
